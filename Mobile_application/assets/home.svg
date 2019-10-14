@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="29" viewBox="0 0 95 29">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 42px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Source Code Variable";
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="HOME" class="cls-1" x="47.461" y="27.805"><tspan x="47.461">HOME</tspan></text>
+</svg>

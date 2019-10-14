@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <html lang="uk">
+
+    </html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="../stylesheet/stylesheet.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body class="super_body">
+    <header>
+        <header class="navs">
+            <header class="home_home">
+                <nav>
+                    <ul>
+
+                        <article id="menu-bar">
+                            <nav>
+                                <ul>
+                                    <li class="top_left"><a href="../home_page/home.html"></a></li>
+                                    <li class="top_mid"><a href=""></a></li>
+                                    <li><a class="top_right" href=""></a></li>
+                                </ul>
+                            </nav>
+                        </article>
+
+                    </ul>
+                </nav>
+            </header>
+        </header>
+    </header>
+    <main class="supermarkets_page">
+
+        <h1>Supermarkets</h1>
+        <p>
+            There are many supermar- kets in Amsterdam. Aldi and Lidl
+            are the cheapest but do not carryleading brands. Dirk van
+            den Broek and Jumbo are the cheapest supermarkets with
+            leading brands. Click on the more button and find out how expensive they are
+            <span id="dots">...</span><span id="more">
+                
+                Albert Heijn is the most expensive, RTL Nieuws
+                reports. For this study, Kassa bought the same,
+                common products from large national supermarkets 
+                Albert Heijn, Aldi, Jumbo, Lidl and Plus.
+            </span>
+        </p>
+
+        <center><button type="button" id="read" onclick="read()">read more</button></center>
+
+        <script type="text/javascript">
+            var i = 0
+
+            function read() {
+                if (!i) {
+                    document.getElementById("more").style.display = "inline";
+                    document.getElementById("dots").style.display = "none";
+                    document.getElementById("read").innerHTML = "read less";
+                    i = 1;
+                } else {
+                    document.getElementById("more").style.display = "none";
+                    document.getElementById("dots").style.display = "inline";
+                    document.getElementById("read").innerHTML = "read more";
+                    i = 0;
+                }
+            }
+
+        </script>
+
+
+
+    </main>
+    <footer>
+<span class="container">
+            <span class="coll"></span>
+            <span class="coll_2"></span>
+        </span>
+        <span class="container">
+            <span class="col_aldi"></span>
+            <span class="coll_aldi"></span>
+        </span>
+
+        <span class="container">
+            <span class="coll"></span>
+            <span class="coll_2"></span>
+        </span>
+   
+    </footer>
+</body>
+
+</html>
